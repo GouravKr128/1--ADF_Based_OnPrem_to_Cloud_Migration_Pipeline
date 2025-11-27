@@ -4,6 +4,7 @@
 ### **Overview**
 This project demonstrates a complete enterprise-grade data engineering solution built using Azure Data Factory, Azure SQL Database, Azure Synapse Analytics, and Power BI.
 
+![s3](Screenshots/Screenshot_3.png)
 - The pipeline first moves the sales CSV files from the on-premises storage to cloud and loads it into Azure SQL Database.
 - From Azure SQL Database, only new or updated sales records are extracted each month and saved as Parquet files in a staging folder.
 - The staged data is then transformed and modelled into fact and dimension tables, which are stored in Azure Synapse Dedicated SQL Pool.
